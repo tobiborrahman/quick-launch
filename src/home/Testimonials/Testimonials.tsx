@@ -14,10 +14,10 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: 'Sarah Johnson',
+    name: 'Leo Johnson',
     role: 'Founder',
     company: 'Foodify',
-    image: '/testimonials/sarah.jpg',
+    image: '/assets/man-1.jpg',
     quote:
       'QuickLaunch helped us launch our restaurant website in just two days. The design looks professional and mobile-friendly!',
   },
@@ -25,15 +25,15 @@ const testimonials: Testimonial[] = [
     name: 'Daniel Kim',
     role: 'CEO',
     company: 'StyleNest',
-    image: '/testimonials/daniel.jpg',
+    image: '/assets/man-2.jpg',
     quote:
       'An absolute game-changer. Our clothing brand got online fast — everything was intuitive and smooth.',
   },
   {
-    name: 'Emily Roberts',
+    name: 'Henry Roberts',
     role: 'Startup Consultant',
     company: 'BizUp',
-    image: '/testimonials/emily.jpg',
+    image: '/assets/man-3.jpg',
     quote:
       'QuickLaunch is the perfect choice for startups. I use it for all my clients to get their MVPs live fast!',
   },
@@ -41,15 +41,15 @@ const testimonials: Testimonial[] = [
     name: 'Ahmed Ali',
     role: 'CTO',
     company: 'DevPro',
-    image: '/testimonials/ahmed.jpg',
+    image: '/assets/man-4.jpg',
     quote:
       'Their template saved our dev team days of setup time. Clean, scalable, and looks amazing.',
   },
   {
-    name: 'Lisa Martin',
+    name: 'Andrew Martin',
     role: 'Designer',
     company: 'DesignIQ',
-    image: '/testimonials/lisa.jpg',
+    image: '/assets/man-5.jpg',
     quote:
       'As a designer, I love how customizable QuickLaunch is. I can adjust layouts quickly without coding headaches.',
   },
@@ -57,7 +57,7 @@ const testimonials: Testimonial[] = [
     name: 'James Cooper',
     role: 'Marketing Lead',
     company: 'MarketWave',
-    image: '/testimonials/james.jpg',
+    image: '/assets/man-6.jpg',
     quote:
       'Perfect for marketing teams. Easy to deploy landing pages that actually convert!',
   },
@@ -65,7 +65,7 @@ const testimonials: Testimonial[] = [
     name: 'Hannah Lee',
     role: 'Freelancer',
     company: 'Self-employed',
-    image: '/testimonials/hannah.jpg',
+    image: '/assets/man-7.jpg',
     quote:
       'QuickLaunch gave me the tools to showcase my freelance portfolio beautifully and professionally.',
   },
@@ -73,15 +73,15 @@ const testimonials: Testimonial[] = [
     name: 'Michael Carter',
     role: 'Founder',
     company: 'StartupHub',
-    image: '/testimonials/michael.jpg',
+    image: '/assets/man-8.jpg',
     quote:
       'This is the fastest I’ve ever built and launched a startup website. Amazing workflow!',
   },
   {
-    name: 'Priya Singh',
+    name: 'Alban Garcia',
     role: 'Marketing Strategist',
     company: 'AdVision',
-    image: '/testimonials/priya.jpg',
+    image: '/assets/man-9.jpg',
     quote:
       'Highly recommend for digital marketers. Everything is plug-and-play, yet visually stunning.',
   },
@@ -89,7 +89,7 @@ const testimonials: Testimonial[] = [
     name: 'Carlos Fernandez',
     role: 'Entrepreneur',
     company: 'LaunchCo',
-    image: '/testimonials/carlos.jpg',
+    image: '/assets/man-10.jpg',
     quote:
       'QuickLaunch lives up to its name — I was online within hours, and the support team was excellent!',
   },

@@ -9,42 +9,42 @@ const portfolioItems = [
     title: 'Foodify — Restaurant Website',
     description:
       'A sleek, high-converting restaurant landing page with integrated online ordering system.',
-    image: '/portfolio/restaurant.jpg',
+    image: '/assets/portfolio-1.jpg',
     link: '/portfolio/foodify',
   },
   {
     title: 'StyleNest — Clothing Brand Store',
     description:
       'Modern eCommerce landing built for fashion brands with seamless cart experience.',
-    image: '/portfolio/clothing.jpg',
+    image: '/assets/portfolio-2.jpg',
     link: '/portfolio/stylenest',
   },
   {
     title: 'StartupHub — Business Launch Platform',
     description:
       'All-in-one startup toolkit landing page for entrepreneurs and small businesses.',
-    image: '/portfolio/startup.jpg',
+    image: '/assets/portfolio-3.jpg',
     link: '/portfolio/startuphub',
   },
   {
     title: 'DevPro — Web Development Agency',
     description:
       'Agency website highlighting web development, app design, and consulting services.',
-    image: '/portfolio/webdev.jpg',
+    image: '/assets/portfolio-4.jpg',
     link: '/portfolio/devpro',
   },
   {
     title: 'DesignIQ — UI/UX Studio',
     description:
       'Creative agency landing showcasing stunning design portfolios and client success stories.',
-    image: '/portfolio/uiux.jpg',
+    image: '/assets/portfolio-5.jpg',
     link: '/portfolio/designiq',
   },
   {
     title: 'MarketWave — Digital Marketing Firm',
     description:
       'Lead-generating landing page optimized for ad campaigns and marketing conversions.',
-    image: '/portfolio/marketing.jpg',
+    image: '/assets/portfolio-6.jpg',
     link: '/portfolio/marketwave',
   },
 ];
