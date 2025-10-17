@@ -13,7 +13,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-indigo-600">
+          <Link href="/" className="">
             <Image src={'/assets/logo.png'} alt='Logo' width={200} height={200} />
           </Link>
 

@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import banner from '../../../public/assets/banner.jpg';
+import banner from '../../../public/assets/banner.png';
 import { ArrowRight } from 'lucide-react';
 
 const Banner: React.FC = () => {
@@ -43,7 +43,7 @@ const Banner: React.FC = () => {
 
         {/* Image Section */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end items-center mb-10 lg:mb-0">
-          <div className="relative w-[320px] sm:w-[400px] md:w-[480px] aspect-square">
+          <div className="relative w-[320px] sm:w-[400px] md:w-[480px] aspect-square overflow-hidden rounded-4xl">
             <Image
               src={banner}
               alt="QuickLaunch Illustration"
