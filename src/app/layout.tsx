@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/home/Header/Header";
 import Footer from "@/home/Footer/Footer";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "QuickLaunch - Launch Your Ideas Faster",
   description: "Create and deploy stunning business websites in minutes.",
+  openGraph:{ url: 'https://quick-launch-ten.vercel.app/', title: 'QuickLaunch' , description: 'Launch your ideas faster with QuickLaunch.', images: [ { url: '/og-image.png', alt: 'QuickLaunch Preview' } ], },
 };
 
 export default function RootLayout({
@@ -32,6 +34,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Toaster />
       </body>
     </html>
   );

@@ -55,10 +55,10 @@ const Header: React.FC = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-md border-t border-gray-100">
           <nav className="flex flex-col space-y-2 p-4 text-gray-700 font-medium">
-            <Link href="#features" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Features</Link>
-            <Link href="#pricing" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Pricing</Link>
-            <Link href="#about" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">About</Link>
-            <Link href="#contact" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Contact</Link>
+            <Link href="features" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Features</Link>
+            <Link href="pricing-plans" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Pricing</Link>
+            <Link href="about-us" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">About</Link>
+            <Link href="contact" onClick={() => setIsOpen(false)} className="hover:text-indigo-600">Contact</Link>
 
             <div className="flex flex-col gap-2 pt-2 border-t border-gray-100">
               <Link

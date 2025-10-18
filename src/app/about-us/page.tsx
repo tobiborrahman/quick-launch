@@ -4,15 +4,15 @@ import React from 'react';
 import Image from 'next/image';
 
 const aboutImages = [
-  '/about/team1.jpg',
-  '/about/team2.jpg',
-  '/about/team3.jpg',
-  '/about/team4.jpg',
+  '/assets/about-us/team-collaboration.jpg',
+  '/assets/about-us/abstract.jpg',
+  '/assets/about-us/innovation.jpg',
+  '/assets/about-us/startup.jpg'
 ];
 
 const AboutPage: React.FC = () => {
   return (
-    <main className="relative bg-gradient-to-br from-indigo-50 via-white to-purple-50 min-h-screen overflow-hidden pt-36 pb-20t">
+    <main className="relative bg-gradient-to-br from-indigo-50 via-white to-purple-50 min-h-screen overflow-hidden pt-36 pb-20">
       {/* Decorative shapes */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-100 rounded-full blur-3xl opacity-60 translate-x-16 -translate-y-16"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-100 rounded-full blur-3xl opacity-60 -translate-x-16 translate-y-16"></div>
@@ -54,7 +54,7 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
           <div className="md:w-1/2 relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
-            <Image src="/about/mission.jpg" alt="Mission" fill className="object-cover" />
+            <Image src="/assets/about-us/mission.jpg" alt="Mission" fill className="object-cover" />
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
           <div className="md:w-1/2 relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
-            <Image src="/about/vision.jpg" alt="Vision" fill className="object-cover" />
+            <Image src="/assets/about-us/vision.jpg" alt="Vision" fill className="object-cover" />
           </div>
         </div>
 
@@ -80,7 +80,7 @@ const AboutPage: React.FC = () => {
             </p>
           </div>
           <div className="md:w-1/2 relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
-            <Image src="/about/values.jpg" alt="Values" fill className="object-cover" />
+            <Image src="/assets/about-us/team.jpg" alt="Values" fill className="object-cover" />
           </div>
         </div>
       </section>

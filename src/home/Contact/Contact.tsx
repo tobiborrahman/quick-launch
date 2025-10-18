@@ -54,9 +54,10 @@ const ContactForm: React.FC = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="bg-white rounded-2xl shadow-md p-8 flex flex-col gap-6"
+          className="bg-white rounded-2xl shadow-md p-8"
         >
-          <input
+         <div className='flex flex-col gap-6'>
+           <input
             type="text"
             name="name"
             placeholder="Your Name"
@@ -91,10 +92,11 @@ const ContactForm: React.FC = () => {
           >
             {status === 'sending' ? 'Sending...' : 'Send Message'}
           </button>
+         </div>
 
           {/* Status Message */}
           {status === 'success' && (
-            <p className="text-green-600 font-medium">Message sent successfully!</p>
+            <p className="text-indigo-600 font-medium -mt-4">Message sent successfully!</p>
           )}
           {status === 'error' && (
             <p className="text-red-600 font-medium">Something went wrong. Please try again.</p>
